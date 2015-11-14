@@ -1,0 +1,47 @@
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  outline: none;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+main {
+	display: block;
+}
+
+input {
+	border: none;
+	padding: 0;
+}
+
+button {
+	background: none;
+	border: none;
+}
+
+a, a:visited, a:hover {
+	text-decoration: none;
+}
+
+a {
+	color: inherit;
+	// transition: ;
+}
+
+a:hover {
+	// color: ;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
